@@ -1,0 +1,15 @@
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.csproj.AssemblyReference.cache
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.AssemblyInfoInputs.cache
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.AssemblyInfo.cs
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.csproj.CoreCompileInputs.cache
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.dll
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/refint/hello_world_trevor.dll
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.pdb
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/bin/Debug/net6.0/hello_world_trevor
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/bin/Debug/net6.0/hello_world_trevor.deps.json
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/bin/Debug/net6.0/hello_world_trevor.runtimeconfig.json
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/bin/Debug/net6.0/hello_world_trevor.dll
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/bin/Debug/net6.0/hello_world_trevor.pdb
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/hello_world_trevor.genruntimeconfig.cache
+/Users/trevorjacques/Desktop/Git hub/cse210-projects/hello_world_trevor/obj/Debug/net6.0/ref/hello_world_trevor.dll
