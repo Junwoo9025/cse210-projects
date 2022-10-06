@@ -1,8 +1,8 @@
 class Score {
-  int scoreCard;
-  int addPoints;
-  int takeAwayPoints;
-  bool isScoreZero;
-}
+  List<int> scoreCard = new List<int>();
 
-Score
+
+  public Score {
+     for 
+  }
+}
