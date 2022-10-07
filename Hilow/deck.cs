@@ -1,5 +1,5 @@
 class deck {
-    List<int> cardDeck = new List<int>();
+    List <int> cardDeck = new List <int>();
     
     public deck(){
         // Creates a list to represent our deck
