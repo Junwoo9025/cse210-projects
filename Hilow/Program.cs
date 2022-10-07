@@ -1,12 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
+namespace cse210
 
-deck cardDeck = new deck();
-Score scoreCard = new Score();
+{
 
-// Draw a card
+    public static class Program
 
-// Have player input for higher or lower
+    {
 
-// Draw a new card and repeat
+        static void Main(string[] args)
 
-// If statement when out of points to start again
+        {
+
+            Game game = new Game();
+
+            game.PlayGame();
+
+        }
+
+    }
+
+}
