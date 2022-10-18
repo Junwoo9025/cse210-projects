@@ -12,8 +12,8 @@ word list
 - [DONE] randomly choose a word from the list.
 
 puzzle
-- If the guess is correct, the letter is revealed.
-- If the guess is incorrect, a line is cut on the player's parachute.
+- (guessCheck) If the guess is correct, the letter is revealed.
+- (guessCheck) If the guess is incorrect, a line is cut on the player's parachute.
 - If the player has no more parachute the game is over.
 - If the puzzle is solved the game is over. 
 
@@ -51,6 +51,15 @@ class Word
     }
 
     
+}
+
+
+class Puzzle 
+{
+    public guessCheck()
+    {
+
+    }
 }
 
 class GameRunner 
