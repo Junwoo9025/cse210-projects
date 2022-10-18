@@ -1,0 +1,7 @@
+class Puzzle 
+{
+    public guessCheck()
+    {
+
+    }
+}
