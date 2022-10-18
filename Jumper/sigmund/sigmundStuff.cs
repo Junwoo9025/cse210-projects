@@ -4,8 +4,8 @@ How did you apply encapsulation to your program's design?
         then we would select the word
 
 player
-- The player guesses a letter in the puzzle.
-- If the puzzle is solved the game is over.   
+- [DONE] The player guesses a letter in the puzzle.
+  
 
 word list
 - [DONE] Creation and holder of list
@@ -15,6 +15,7 @@ puzzle
 - If the guess is correct, the letter is revealed.
 - If the guess is incorrect, a line is cut on the player's parachute.
 - If the player has no more parachute the game is over.
+- If the puzzle is solved the game is over. 
 
 gamerunner
 - Continue playing
@@ -27,7 +28,6 @@ class Player
     public string Guess()
     {
         string choice;
-        Console.Write("What is your guess: ");
         choice = Console.ReadLine();
 
         return choice;
@@ -58,16 +58,19 @@ class GameRunner
     
     static void Main(string[] args)
     {
+        Console.Write("What is your guess: ");
         Player choice = new Player();
         string playerchoice = choice.Guess();
         Console.WriteLine($"The guess is: {playerchoice}");
 
+
+
         // WORKS: This just tests if I'm able to get the random word from the class.
-        /***
+        //***
         Word word = new Word();
         string randomWord = word.RandomWord();
         Console.WriteLine($"The word is: {randomWord}");
-        ***/
+        //***/
 
     }
 
