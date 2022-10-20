@@ -2,6 +2,7 @@
 {
     public class Director
     {
+
         // Initialize necessary variables
         private Parachute _parachute;
         private IO _io;
