@@ -7,22 +7,22 @@
 using System;
 class Image
 {
-List<string> _jumperImage;
+List<string> jumperImage; 
 
 public Image()
 {
-    _jumperImage = new List<string>();
+    jumperImage = new List<string>();
     CreateJumperImage();
 }
  private void CreateJumperImage()
    {
-      _jumperImage.Add( " ___ ");
-      _jumperImage.Add(@"/___\");
-      _jumperImage.Add(@"\   /");
-      _jumperImage.Add(@" \ /");
-      _jumperImage.Add("   0  ");
-      _jumperImage.Add(@" /|\ ");
-      _jumperImage.Add(@" / \ ");
+      jumperImage.Add( " ___ ");
+      jumperImage.Add(@"/___\");
+      jumperImage.Add(@"\   /");
+      jumperImage.Add(@" \ /");
+      jumperImage.Add("   0  ");
+      jumperImage.Add(@" /|\ ");
+      jumperImage.Add(@" / \ ");
    }
 
 public void DisplayJumper(int wrongGuesses, int correctWord)
@@ -40,9 +40,9 @@ public void DisplayJumper(int wrongGuesses, int correctWord)
 
 private void AliveJumper(int wrongGuesses)
    {
-      for (int i = wrongGuesses; i < _jumperImage.Count; i++)
+      for (int i = wrongGuesses; i < jumperImage.Count; i++)
       {
-         Console.WriteLine(_jumperImage[i]);
+         Console.WriteLine(jumperImage[i]);
       }
       Console.Write("\n");
       Console.WriteLine("^^^^^^^");
