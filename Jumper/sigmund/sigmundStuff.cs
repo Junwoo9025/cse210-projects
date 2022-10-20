@@ -10,6 +10,8 @@ player
 word list
 - [DONE] Creation and holder of list
 - [DONE] randomly choose a word from the list.
+- Next step is to create the dashed lines based on the random word chosen.
+    EX: air == _ _ _
 
 puzzle
 - (guessCheck) If the guess is correct, the letter is revealed.
@@ -62,34 +64,20 @@ class Word
         // this is calling word from the private string
         return word;
     }
-
-    /***
-
-    public string RandomWord()
-    {
-        Random random = new Random();
-        int index = random.Next(listOfWords.Count());
-        string randomWord = listOfWords[index];
-        word = randomWord;
-        
-        // With a getter and setter. You don't need to return anything.
-        //return randomWord;
-    }
-
-    ***/
-
     
 }
 
-/***
+
 class Puzzle 
 {
+    // What's inside is going to be the 
     public guessCheck()
     {
 
     }
+
 }
-***/
+
 
 class GameRunner 
 {
@@ -116,4 +104,36 @@ class GameRunner
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /***
+
+    public string RandomWord()
+    {
+        Random random = new Random();
+        int index = random.Next(listOfWords.Count());
+        string randomWord = listOfWords[index];
+        word = randomWord;
+        
+        // With a getter and setter. You don't need to return anything.
+        //return randomWord;
+    }
+
+    ***/
 
