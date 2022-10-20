@@ -16,13 +16,13 @@ public Image()
 }
  private void CreateJumperImage()
    {
-      _jumperImage.Add(" ___ ");
-      _jumperImage.Add("/___\\");
-      _jumperImage.Add("\\   /");
-      _jumperImage.Add(" \\ /");
-      _jumperImage.Add("  0  ");
-      _jumperImage.Add(" /|\\ ");
-      _jumperImage.Add(" / \\ ");
+      _jumperImage.Add( " ___ ");
+      _jumperImage.Add(@"/___\");
+      _jumperImage.Add(@"\   /");
+      _jumperImage.Add(@" \ /");
+      _jumperImage.Add("   0  ");
+      _jumperImage.Add(@" /|\ ");
+      _jumperImage.Add(@" / \ ");
    }
 
 public void DisplayJumper(int wrongGuesses, int correctWord)
@@ -51,9 +51,9 @@ private void AliveJumper(int wrongGuesses)
 
 private void DeadJumper()
 {
-  Console.WriteLine(" x ");
-  Console.WriteLine(" /|\ ");
-  Console.WriteLine("/ \");
+  Console.WriteLine("  x ");
+  Console.WriteLine(@"/|\");
+  Console.WriteLine(@"/ \");
   Console.WriteLine("\n");
   Console.WriteLine("^^^^^^^");
   
